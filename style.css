@@ -101,7 +101,7 @@ body {
 /* Estilos para telas menores, como celulares */
 @media (max-width: 768px) {
     body {
-        background-size: contain; /* Ajusta o fundo para caber melhor */
+        background-size: contain repeat-y; /* Ajusta o fundo para caber melhor */
     }
 
     .container {
@@ -110,7 +110,7 @@ body {
     }
 
     #title, #title-white {
-        font-size: 20px;
+        font-size: 18px;
         padding: 10px;
     }
 
@@ -132,10 +132,5 @@ body {
         height: auto;
         padding: 10px;
         font-size: 16px;
-    }
-
-    body {
-        background: #1F1514 url(assets/fundo.png) repeat-y;
-        background-size: cover;
     }
 }
